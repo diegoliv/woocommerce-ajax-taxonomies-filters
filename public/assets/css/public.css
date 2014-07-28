@@ -1,0 +1,100 @@
+.widget_watf_widget_cats ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.widget_watf_widget_cats .watf-tax-count span{
+	position: relative;
+	padding: 0 .3em;
+	font-size: .8em;
+	background-color: rgba(50, 68, 57, 0.1);
+	border-radius: 2px;
+}
+
+.widget_watf_widget_cats li > ul{ margin-left: 1em; }
+.widget_watf_widget_cats li > ul > li{ font-size: .9em; } 
+.widget_watf_widget_cats li > ul li:before{ 
+	content: '-';
+	position: relative;
+	float: left;
+	margin-left: -.6em;
+	font-size: 1.2em;
+}
+
+.widget_watf_widget_cats li, .widget_watf_widget_cats label{
+	position: relative;
+	display: block;
+}
+.widget_watf_widget_cats label{
+	padding: .1em .2em;
+	cursor: pointer;
+}
+.widget_watf_widget_cats label:before, .widget_watf_widget_cats label:after{
+	content: '';
+	display: table;
+}
+.widget_watf_widget_cats label:after{ clear: both; }
+
+.widget_watf_widget_cats input[type="checkbox"]{
+	display: none;
+}
+.widget_watf_widget_cats input[type="checkbox"]:checked + label{
+	color: #43b265;
+}
+
+.widget_watf_widget_cats .wtaf-term-label{
+	position: relative;
+	float: left;
+	width: 90%;
+}
+.widget_watf_widget_cats .wtaf-term-count{
+	position: relative;
+	float: right;
+	padding: 0 .3em;
+	font-size: .8em;
+	background-color: rgba(50, 68, 57, 0.1);
+	border-radius: 2px;
+}
+
+/*loading state*/
+.watf-loading{
+	padding: 10em 0px;
+}
+.watf-loading .watf-loading-spinner{
+	margin: 0 auto;
+	font-size: 1.5em;
+	text-align: center;
+}
+.watf-loading .watf-spinner{
+	display: block;
+	width: 3em;
+	height: 3em;
+	margin: 1em auto;
+	border: 5px solid rgba( 0,0,0,0.1 );
+	border-top-color: rgba( 0,0,0,0.3 );
+	border-radius: 50%;
+	-webkit-animation: spin 1s linear infinite;
+	-ms-animation: spin 1s linear infinite;
+	animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0); }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg); } }

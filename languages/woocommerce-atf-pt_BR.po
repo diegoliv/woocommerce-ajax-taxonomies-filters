@@ -1,0 +1,231 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Ajax Taxonomies Filters v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-05-16 21:10:11+0000\n"
+"Last-Translator: developer <brunofflora@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: admin/class-woocommerce-atf-admin.php:123
+#: admin/class-woocommerce-atf-admin.php:124
+#: woocommerce-atf.php:0
+#@ woocommerce-atf
+msgid "WooCommerce Ajax Taxonomies Filters"
+msgstr "WooCommerce Filtros Ajax de Taxonomias"
+
+#: admin/class-woocommerce-atf-admin.php:145
+#: admin/class-woocommerce-atf-admin.php:153
+#@ woocommerce-atf
+msgid "General Settings"
+msgstr "Configurações Gerais"
+
+#: admin/class-woocommerce-atf-admin.php:164
+#@ woocommerce-atf
+msgid "Use ajax filtering?"
+msgstr "Usar filtragem via ajax?"
+
+#: admin/class-woocommerce-atf-admin.php:165
+#@ woocommerce-atf
+msgid "Mark this if you want to make the filtering process work with ajax."
+msgstr "Marque esta opção se você deseja que o processo de filtragem funcione com ajax."
+
+#: admin/class-woocommerce-atf-admin.php:172
+#@ woocommerce-atf
+msgid "Products container"
+msgstr "Elemento que contém os Produtos"
+
+#: admin/class-woocommerce-atf-admin.php:173
+#@ woocommerce-atf
+msgid "Insert the element with class (i.e.: ul.products) or the id (i.e.: #products) of the products list."
+msgstr "Insira um elemento com uma classe (ex.: ul.products) ou a id (ex.: #products) da lista de produtos."
+
+#: admin/class-woocommerce-atf-admin.php:182
+#@ woocommerce-atf
+msgid "Product count container"
+msgstr "Elemento que contém a contagem dos produtos"
+
+#: admin/class-woocommerce-atf-admin.php:183
+#@ woocommerce-atf
+msgid "Insert the element with class (i.e.: .woocommerce-result-count) or the id (i.e.: #woocommerce-result-count) of the products count container."
+msgstr "Insira o elemento com a classe (ex.: .woocommerce-result-count) ou a id (ex.: #woocommerce-result-count) para o elemento que contém a contagem dos produtos."
+
+#: admin/class-woocommerce-atf-admin.php:192
+#@ woocommerce-atf
+msgid "Remove default stylesheet?"
+msgstr "Remover estilo padrão?"
+
+#: admin/class-woocommerce-atf-admin.php:193
+#@ woocommerce-atf
+msgid "Mark this if you want to remove the default stylesheet that comes with the plugin. This way, you can have more control over the styling of the widget."
+msgstr "Marque esta opção se você deseja remover a folha de estilos padrão que vem com o plugin. Desta forma, você pode ter mais controle sobre os estilos do widget."
+
+#: admin/class-woocommerce-atf-admin.php:227
+#@ woocommerce-atf
+msgid "Settings"
+msgstr "Configurações"
+
+#: public/class-woocommerce-atf-widget-cats.php:24
+#@ woocommerce-atf
+msgid "WooCommerce - Ajax Filter (Taxonomies like Categories)"
+msgstr "WooCommerce - Filtros Ajax (Taxonomias)"
+
+#: public/class-woocommerce-atf-widget-cats.php:27
+#@ woocommerce-atf
+msgid "Generates a list of hierarchic taxonomies with ajax filtering."
+msgstr "Gera uma lista de taxonomias com filtragem via ajax."
+
+#: public/class-woocommerce-atf-widget-cats.php:87
+#@ woocommerce-atf
+msgid "Filtering Results..."
+msgstr "Filtrando Produtos..."
+
+#: public/class-woocommerce-atf-widget-cats.php:88
+#@ woocommerce-atf
+msgid "Sorry, an error ocurred while filtering products. Please, try again."
+msgstr "Desculpe, um erro ocorreu enquanto os produtos estavam sendo filtrados. Por favor, tente novamente."
+
+#: public/class-woocommerce-atf-widget-cats.php:146
+#@ woocommerce-atf
+msgid "New Title"
+msgstr "Novo Título"
+
+#: public/class-woocommerce-atf-widget-cats.php:195
+#@ woocommerce-atf
+msgid "Title:"
+msgstr "Título"
+
+#: public/class-woocommerce-atf-widget-cats.php:200
+#@ woocommerce-atf
+msgid "Options:"
+msgstr "Opções:"
+
+#: public/class-woocommerce-atf-widget-cats.php:204
+#@ woocommerce-atf
+msgid "Hide Widget if there are no terms to be displayed?"
+msgstr "Esconder Widget se não houver nenhum termo a ser mostrado?"
+
+#: public/class-woocommerce-atf-widget-cats.php:209
+#@ woocommerce-atf
+msgid "Hide terms that have no related posts?"
+msgstr "Esconder termos que não possuem posts relacionados?"
+
+#: public/class-woocommerce-atf-widget-cats.php:214
+#@ woocommerce-atf
+msgid "Show term count?"
+msgstr "Mostrar contagem de posts dos termos?"
+
+#: public/class-woocommerce-atf-widget-cats.php:218
+#@ woocommerce-atf
+msgid "Order Terms By:"
+msgstr "Ordenar Termos por:"
+
+#: public/class-woocommerce-atf-widget-cats.php:220
+#@ woocommerce-atf
+msgid "ID Ascending"
+msgstr "ID Crescente"
+
+#: public/class-woocommerce-atf-widget-cats.php:221
+#@ woocommerce-atf
+msgid "ID Descending"
+msgstr "ID Decrescente"
+
+#: public/class-woocommerce-atf-widget-cats.php:222
+#@ woocommerce-atf
+msgid "Count Ascending"
+msgstr "Contagem Crescente"
+
+#: public/class-woocommerce-atf-widget-cats.php:223
+#@ woocommerce-atf
+msgid "Count Descending"
+msgstr "Contagem Decrescente"
+
+#: public/class-woocommerce-atf-widget-cats.php:224
+#@ woocommerce-atf
+msgid "Name Ascending"
+msgstr "Nome Crescente"
+
+#: public/class-woocommerce-atf-widget-cats.php:225
+#@ woocommerce-atf
+msgid "Name Descending"
+msgstr "Nome Decrescente"
+
+#: public/class-woocommerce-atf-widget-cats.php:226
+#@ woocommerce-atf
+msgid "Slug Ascending"
+msgstr "Slug Crescente"
+
+#: public/class-woocommerce-atf-widget-cats.php:227
+#@ woocommerce-atf
+msgid "Slug Descending"
+msgstr "Slug Decrescente"
+
+#: public/class-woocommerce-atf-widget-cats.php:232
+#@ default
+msgid "Maximum Number Of Terms To Return:"
+msgstr ""
+
+#: public/class-woocommerce-atf-widget-cats.php:237
+#@ default
+msgid "Ids To Exclude From Being Displayed:"
+msgstr ""
+
+#: public/class-woocommerce-atf-widget-cats.php:242
+#@ default
+msgid "Only Display Terms With The Following Ids:"
+msgstr ""
+
+#: public/class-woocommerce-atf-widget-cats.php:247
+#@ woocommerce-atf
+msgid "Selected Taxonomy:"
+msgstr "Taxonomia Selecionada?"
+
+#: public/views/widget-ui.php:70
+#@ woocommerce-atf
+msgid "Reset Filters"
+msgstr "Resetar Filtros"
+
+#: public/views/widget-ui.php:71
+#@ woocommerce-atf
+msgid "Filter"
+msgstr "Filtrar"
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: woocommerce-atf.php:0
+#@ woocommerce-atf
+msgid "http://favolla.com.br"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: woocommerce-atf.php:0
+#@ woocommerce-atf
+msgid "Creates Widgets for taxonomies with ajax filtering for the products archive page."
+msgstr "Cria Widgets para taxonomias com filtragem via ajax na página de listagem de produtos."
+
+#. translators: plugin header field 'Author'
+#: woocommerce-atf.php:0
+#@ woocommerce-atf
+msgid "Diego de Oliveira"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: woocommerce-atf.php:0
+#@ woocommerce-atf
+msgid "1.0.0"
+msgstr ""
+
